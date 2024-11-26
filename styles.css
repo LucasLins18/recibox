@@ -262,30 +262,3 @@ footer a:hover {
   height: auto; /* Mantém a proporção da imagem */
   border-radius: 8px; /* Borda arredondada */
 }
-
-/* Estilo para o menu (desktop) */
-header nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-header nav ul li {
-    padding: 10px;
-}
-
-/* Menu responsivo (em telas menores) */
-@media (max-width: 768px) {
-    header nav ul {
-        display: block; /* Mudamos para um layout de bloco para empilhar os itens */
-        background-color: rgb(129, 199, 132); /* Cor do fundo */
-        padding: 10px;
-    }
-
-    header nav ul li {
-        text-align: center; /* Centraliza os itens na versão mobile */
-        padding: 15px;
-    }
-}
