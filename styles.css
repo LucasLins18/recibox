@@ -225,6 +225,19 @@ footer a:hover {
   max-height: 400px; /* Limita a altura da imagem */
 }
 
+/* Estilo para a imagem da seção "O que é o ReciBox" */
+.imagem-recibox {
+  text-align: center; /* Centraliza a imagem */
+  margin: 20px 0; /* Adiciona espaçamento acima e abaixo da imagem */
+}
+
+.imagem-recibox img {
+  max-width: 80%; /* Limita a largura da imagem a 80% do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  max-height: 300px; /* Limita a altura máxima da imagem */
+}
+
+
 /* Centraliza o conteúdo do vídeo e o texto */
 #video {
     display: flex; /* Usando flexbox para facilitar a centralização */
