@@ -1,0 +1,264 @@
+/* ==================== LEGENDAS DE CORES (IMPORTANTE) ==================== */
+
+/* Verde Musgo: Cor representando a natureza, sustentabilidade e reciclagem. */
+/* rgb(44, 107, 47) */
+
+/* Verde Claro: Cor que evoca frescor, renovação e crescimento, ligados à natureza e à sustentabilidade. */
+/* rgb(129, 199, 132) */
+
+/* Branco Neve: Cor suave e clara, associada à pureza, limpeza e sustentabilidade. */
+/* rgb(245, 245, 245) */
+
+/* Branco Gelo: Tom de branco frio e moderno, transmitindo sofisticação e leveza. */
+/* rgb(224, 224, 224) */
+
+/* ==================== ESTILOS GERAIS ==================== */
+
+/* Estilo global */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  padding-top: 80px; /* Espaço para o header fixo */
+  background-color: rgb(245, 245, 245); /* Branco Neve */
+}
+
+/* Cabeçalho fixo */
+header {
+  position: fixed; /* Torna o header fixo */
+  top: 0; /* Fixa no topo */
+  left: 0; /* Alinha à esquerda */
+  width: 100%; /* Ocupa toda a largura */
+  background-color: rgb(129, 199, 132); /* Verde Claro */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+  z-index: 1000; /* Mantém o header acima de outros elementos */
+  padding: 10px 20px; /* Espaçamento interno */
+}
+
+/* Estilo do menu de navegação */
+header nav ul {
+  display: flex;
+  justify-content: space-around; /* Distribui os itens igualmente */
+  list-style: none; /* Remove os marcadores */
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: rgb(44, 107, 47); /* Verde Musgo */
+  font-weight: bold; /* Texto em negrito */
+  transition: color 0.3s ease; /* Transição suave na cor */
+}
+
+header nav ul li a:hover {
+  color: rgb(224, 224, 224); /* Branco Neve */
+}
+
+/* Seções */
+section {
+  padding: 40px 20px;
+  margin: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+  border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* ==================== ESTILOS PARA A SEÇÃO DE CONTATO ==================== */
+#contato {
+  padding: 40px 20px;
+  background-color: #fff;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  border-radius: 8px;
+}
+
+#contato h2 {
+  color: rgb(44, 107, 47); /* Verde Musgo */
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+#contato p {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  gap: 15px;
+}
+
+form label {
+  font-weight: bold;
+  color: rgb(44, 107, 47); /* Verde Musgo */
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select {
+  max-width: 500px; /* Limita o tamanho */
+}
+
+form textarea {
+  resize: vertical; /* Permite redimensionar verticalmente */
+  height: 80px; /* Definindo uma altura menor para a caixa de mensagem */
+}
+
+form button {
+  padding: 8px 16px; /* Diminuindo o padding para deixar o botão menor */
+  background-color: rgb(44, 107, 47); /* Verde Musgo */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9rem; /* Diminuindo o tamanho da fonte */
+  transition: background-color 0.3s;
+  max-width: 200px; /* Limita a largura máxima do botão */
+}
+
+form button:hover {
+  background-color: rgb(129, 199, 132); /* Verde Claro */
+}
+
+.informacoes-contato {
+  margin-top: 30px;
+}
+
+.informacoes-contato p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Títulos */
+h1,
+h2 {
+  color: rgb(44, 107, 47); /* Verde Musgo */
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+/* Parágrafos */
+p {
+  margin-bottom: 15px;
+}
+
+/* Listas */
+ul {
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(44, 107, 47); /* Verde Musgo */
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Links do rodapé */
+footer a {
+  color: rgb(129, 199, 132); /* Verde Claro */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ==================== ESTILOS PARA A IMAGENS E VIDEOS ==================== */
+
+/* Estilo para a seção da logo da Prefeitura do Recife */
+.logo-recife {
+  text-align: center; /* Centraliza a imagem */
+  margin: 20px 0; /* Adiciona espaçamento acima e abaixo */
+}
+
+.logo-recife img {
+  max-width: 100%; /* Garante que a imagem nunca ultrapasse a largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  max-height: 150px; /* Limita a altura máxima da imagem */
+}
+
+/* Estilo para a imagem da seção Recife e Sustentabilidade */
+.imagem-sustentabilidade {
+  text-align: center; /* Centraliza a imagem */
+  margin: 20px 0; /* Adiciona espaçamento acima e abaixo da imagem */
+}
+
+.imagem-sustentabilidade img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  max-height: 400px; /* Limita a altura da imagem */
+}
+
+/* Centraliza o conteúdo do vídeo e o texto */
+#video {
+    display: flex; /* Usando flexbox para facilitar a centralização */
+    flex-direction: column; /* Organiza os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    text-align: center; /* Alinha o texto ao centro */
+    margin: 20px 0; /* Adiciona uma margem superior e inferior */
+}
+
+/* Garantir que o vídeo seja responsivo */
+#video iframe {
+    max-width: 100%; /* O vídeo não ultrapassa a largura da div */
+    height: auto; /* Ajusta a altura proporcionalmente */
+    border: none; /* Remove a borda padrão */
+}
+
+/* Estilização do título */
+#video h2 {
+    font-size: 1.5rem; /* Tamanho de fonte ajustável */
+    font-weight: bold; /* Deixa o título em negrito */
+    color: rgb(44, 107, 47); /* Cor verde musgo */
+    margin-bottom: 20px; /* Espaço entre o texto e o vídeo */
+    padding: 0 15px; /* Adiciona espaçamento nas laterais do texto */
+}
+
+/* Estilo para a imagem na seção Vamos Juntos */
+.imagem-juntos {
+    text-align: center; /* Centraliza a imagem */
+    margin-top: 20px; /* Adiciona espaço entre o texto e a imagem */
+}
+
+.imagem-juntos img {
+    max-width: 100%; /* Faz a imagem se ajustar à largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Borda arredondada */
+}
