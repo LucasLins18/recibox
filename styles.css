@@ -227,38 +227,38 @@ footer a:hover {
 
 /* Centraliza o conteúdo do vídeo e o texto */
 #video {
-  display: flex; /* Usando flexbox para facilitar a centralização */
-  flex-direction: column; /* Organiza os itens na vertical */
-  align-items: center; /* Centraliza os itens horizontalmente */
-  justify-content: center; /* Centraliza os itens verticalmente */
-  text-align: center; /* Alinha o texto ao centro */
-  margin: 20px 0; /* Adiciona uma margem superior e inferior */
+    display: flex; /* Usando flexbox para facilitar a centralização */
+    flex-direction: column; /* Organiza os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    text-align: center; /* Alinha o texto ao centro */
+    margin: 20px 0; /* Adiciona uma margem superior e inferior */
 }
 
 /* Garantir que o vídeo seja responsivo */
 #video iframe {
-  max-width: 100%; /* O vídeo não ultrapassa a largura da div */
-  height: auto; /* Ajusta a altura proporcionalmente */
-  border: none; /* Remove a borda padrão */
+    max-width: 100%; /* O vídeo não ultrapassa a largura da div */
+    height: auto; /* Ajusta a altura proporcionalmente */
+    border: none; /* Remove a borda padrão */
 }
 
 /* Estilização do título */
 #video h2 {
-  font-size: 1.5rem; /* Tamanho de fonte ajustável */
-  font-weight: bold; /* Deixa o título em negrito */
-  color: rgb(44, 107, 47); /* Cor verde musgo */
-  margin-bottom: 20px; /* Espaço entre o texto e o vídeo */
-  padding: 0 15px; /* Adiciona espaçamento nas laterais do texto */
+    font-size: 1.5rem; /* Tamanho de fonte ajustável */
+    font-weight: bold; /* Deixa o título em negrito */
+    color: rgb(44, 107, 47); /* Cor verde musgo */
+    margin-bottom: 20px; /* Espaço entre o texto e o vídeo */
+    padding: 0 15px; /* Adiciona espaçamento nas laterais do texto */
 }
 
 /* Estilo para a imagem na seção Vamos Juntos */
 .imagem-juntos {
-  text-align: center; /* Centraliza a imagem */
-  margin-top: 20px; /* Adiciona espaço entre o texto e a imagem */
+    text-align: center; /* Centraliza a imagem */
+    margin-top: 20px; /* Adiciona espaço entre o texto e a imagem */
 }
 
 .imagem-juntos img {
-  max-width: 100%; /* Faz a imagem se ajustar à largura da tela */
-  height: auto; /* Mantém a proporção da imagem */
-  border-radius: 8px; /* Borda arredondada */
+    max-width: 100%; /* Faz a imagem se ajustar à largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Borda arredondada */
 }
